@@ -7,7 +7,6 @@ import {
   FlatList,
   ImageBackground
 } from 'react-native'
-import { Feather } from '@expo/vector-icons'
 import ListItem from '../components/ListItem'
 
 const DATA = [
@@ -80,7 +79,7 @@ const UpcomingWeather = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight || 0,
+    // marginTop: StatusBar.currentHeight || 0,
     backgroundColor: 'royalBlue'
   },
   image: {

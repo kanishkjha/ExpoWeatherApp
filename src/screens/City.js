@@ -46,7 +46,7 @@ const City = () => {
             bodyTextStyles={riseSetText}
           />
           <IconText
-            iconName={'sunrise'}
+            iconName={'sunset'}
             iconColor={'white'}
             bodyText={'17:28:15pm'}
             bodyTextStyles={riseSetText}
@@ -59,8 +59,8 @@ const City = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    marginTop: StatusBar.currentHeight || 0
+    flex: 1
+    // marginTop: StatusBar.currentHeight || 0
   },
   imageLayout: {
     flex: 1
